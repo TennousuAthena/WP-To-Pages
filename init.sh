@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 urldecode() { : "${*//+/ }"; echo -e "${_//%/\\x}"; }
 
 work_dir="/www/wp_pages"
